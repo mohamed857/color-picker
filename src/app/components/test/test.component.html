@@ -1,0 +1,10 @@
+<div class="general m-5">
+    <div>
+        @for (user of data; track $index) {
+        <div>
+            <h1>{{user.name}}</h1>
+            <p>{{user.email}}</p>
+        </div>
+        }
+    </div>
+</div>
